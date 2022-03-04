@@ -243,7 +243,7 @@
         background: #fff;
         border-bottom: 1px solid #ddd;
         padding: 10px 0;
-        position: none;
+        position:relative;
         top: 0;
         left: 0;
         width: 100%;
@@ -325,7 +325,7 @@
         background-position: top center;
         position: relative;
         z-index: 5;
-        margin-top: 70px;
+        margin-top:0;
     }
     .about-boxs {
         width: 100%;
@@ -343,6 +343,10 @@
     .test-head h1 {
         font-size: 36px;
         margin-bottom: 61px;
+    }
+    .about-text h1 {
+        font-size: 33px;
+        font-weight: 400;
     }
     .test-head h1 {
         font-size: 29px;
@@ -364,11 +368,18 @@
         margin-bottom: 29px;
     }
     .footer p {
-        font-size: 21px;
+        font-size: 19px;
         font-weight: 500;
         line-height: 1.5;
         color: #000;
         margin-bottom: 30px;
+    }
+    .pricing-head h1 {
+        font-size: 36px;
+    }
+    .pricing-head p {
+        font-size: 15px;
+        padding-top: 25px;
     }
     .feed-left {
         float: left;
@@ -516,12 +527,37 @@
         border: 2px solid transparent;
         transition: .5s;
     }
+    
+    
+    .p-content ul li span {
+        color: #6278df;
+        font-size: 31px;
+        display: inline-block;
+        width: 40px;
+    }
     .footer p {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         color: #000;
         margin-bottom: 30px;
+    }
+    .about-text h1 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .about-text p {
+        color: #767676;
+        font-size: 19px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    .pricing-head h1 {
+        font-size: 28px;
+    }
+    .pricing-head p {
+        font-size: 15px;
+        padding-top: 21px;
     }
 }
 @media (max-width:420px){
